@@ -27,19 +27,20 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/ivRadio"
+            android:id="@+id/menu"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:clickable="true"
             android:focusable="true"
             android:padding="8dp"
-            app:layout_constraintBottom_toBottomOf="@id/ivBell"
-            app:layout_constraintEnd_toStartOf="@id/ivBell"
-            app:layout_constraintTop_toTopOf="@id/ivBell" />
+            android:src="@drawable/baseline_menu_24"
+            app:layout_constraintBottom_toBottomOf="@id/search"
+            app:layout_constraintEnd_toStartOf="@id/search"
+            app:layout_constraintTop_toTopOf="@id/search" />
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/ivBell"
+            android:id="@+id/search"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginEnd="16dp"
@@ -57,8 +58,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv"
         android:layout_width="match_parent"
-        android:layout_marginTop="4dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:orientation="vertical"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"

@@ -4,7 +4,7 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 
 fun <T : Any> createPager(
-    pageSize: Int = 10, enablePlaceHolders: Boolean = false,
+    pageSize: Int = 200, enablePlaceHolders: Boolean = false,
     block: suspend (Int) -> List<T>
 ): Pager<Int, T> = Pager(
     config = PagingConfig(

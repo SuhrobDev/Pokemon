@@ -6,7 +6,7 @@ import com.example.domain.model.details.DetailsDto
 
 
 fun PokemonDto.toModel(): PokemonModel {
-    return PokemonModel(name = name, url = url)
+    return PokemonModel(name = name, url =url )
 }
 
 fun com.example.data.remote.dto.details.DetailsDto.toData(): DetailsDto {

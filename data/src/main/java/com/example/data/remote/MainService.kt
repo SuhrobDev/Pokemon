@@ -3,7 +3,6 @@ package com.example.data.remote
 import com.example.data.remote.dto.PagingMainDto
 import com.example.data.remote.dto.details.DetailsDto
 import com.example.data.remote.dto.main.PokemonDto
-import com.example.domain.common.Resource
 import retrofit2.Response
 import retrofit2.http.*
 
@@ -17,13 +16,13 @@ interface MainService {
     @GET("pokemon")
     suspend fun getMain(
         @Query("offset") page: Int,
-        @Query("limit") limit: Int = 15
+        @Query("limit") limit: Int = 200
     ): Response<PagingMainDto<List<PokemonDto>>>
 
-    @GET("pokemon")
+    @GET("pokemon/{name}")
     suspend fun search(
-        @Query("search") search: String
-    ): Response<PagingMainDto<List<PokemonDto>>>
+        @Path("name") name: String
+    ): Response<DetailsDto>
 
 //    @GET("podcasts/{id}")
 //    suspend fun getPodcastByCategory(

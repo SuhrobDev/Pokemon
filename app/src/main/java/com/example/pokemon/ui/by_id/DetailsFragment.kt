@@ -7,6 +7,7 @@ import androidx.lifecycle.lifecycleScope
 import com.example.pokemon.App
 import com.example.pokemon.databinding.FragmentDetailsBinding
 import com.example.pokemon.ui.BaseFragment
+import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -15,6 +16,10 @@ class DetailsFragment : BaseFragment<FragmentDetailsBinding>(FragmentDetailsBind
     @Inject
     lateinit var viewModel: DetailsViewModel
     private var itemId: String = ""
+    val coroutineExceptionHandler = CoroutineExceptionHandler { _, throwable ->
+        throwable.printStackTrace()
+    }
+
     override fun onViewCreate() {
         App.appComponent.inject(this)
         bundle()
@@ -31,7 +36,7 @@ class DetailsFragment : BaseFragment<FragmentDetailsBinding>(FragmentDetailsBind
     }
 
     private fun observe(id: String) {
-        lifecycleScope.launch {
+        lifecycleScope.launch(coroutineExceptionHandler) {
             viewModel.getDetails(id = id)
         }
         lifecycleScope.launchWhenCreated {

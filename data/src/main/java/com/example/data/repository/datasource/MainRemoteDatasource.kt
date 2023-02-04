@@ -12,4 +12,5 @@ interface MainRemoteDatasource {
     ): Response<PagingMainDto<List<PokemonDto>>>
 
     suspend fun details(id: String): Response<DetailsDto>
+    suspend fun search(name: String): Response<DetailsDto>
 }
