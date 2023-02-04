@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--mustafo-->
+    <color name="status_bar_color">#FFFFFF</color>
+    <color name="word_order">#F2F2F2</color>
+    <color name="forum_1">#758ECE</color>
+    <color name="forum_2">#D166DA</color>
+    <color name="forum_3">#FACD4D</color>
+    <color name="light_blue">#758ECE</color>
+    <color name="quite_dark_blue">#425FAB</color>
+    <color name="title_forum_dialog">#4F4F4F</color>
+    <color name="item_dialog_txt_color">#333333</color>
+    <color name="green">#00BC96</color>
+    <color name="green_15">#2600BC96</color>
+    <color name="red_alpha">#1AEB5757</color>
+    <color name="yellow">#FFC833</color>
+    <color name="white_1">#000000</color>
+    <color name="not_select_1">#F6F6F6</color>
+    <color name="not_select">#F6F6F6</color>
+    <color name="line_home">#FFFFFFFF</color>
+    <color name="line_space">#E0E0E0</color>
+    <color name="toolbar_color">#FFFFFF</color>
+    <color name="fragment_back">#F2F2F7</color>
+    <color name="main_blue">#00AFFF</color>
+    <color name="button_disabled">#BDBDBD</color>
+    <color name="main_text_color">#121212</color>
+    <color name="border_field_registration">#E0E0E0</color>
+    <color name="hint_color">#BDBDBD</color>
+    <color name="dark_gray">#828282</color>
+    <color name="privacy_color">#828282</color>
+    <color name="enter_number">#4F4F4F</color>
+    <color name="red">#EB5757</color>
+    <color name="start_fragment_bg">#FFFFFF</color>
+    <color name="test_fragment_bg">#00AFFF</color>
+    <color name="circle_bg">#F3F3F3</color>
+    <color name="test_final_color">#00AFFF</color>
+    <color name="final_card_bg">#FFFFFF</color>
+    <color name="home_bg_1">#B066FF</color>
+    <color name="home_bg_2">#5248B0</color>
+    <color name="stack_view_shadow_light">#80FFFFFF</color>
+    <color name="not_select_color">#E0E0E0</color>
+    <color name="edit_title_color">#333333</color>
+    <color name="bottom">#212121</color>
+    <color name="profile">#FFFFFF</color>
+
+    <color name="purple_registration_dialog">#A58EF0</color>
+    <color name="purple_registration_dialog_alpha">#1AA58EF0</color>
+    <!--mustafo-->
+
+    //Suhrob
+    <color name="unselected">#3300AFFF</color>
+    <color name="powerOff">#A1A1AA</color>
+    <color name="powerOn">#00AFFF</color>
+    <color name="too_dark_blue">#292E33</color>
+    <color name="selected">#00AFFF</color>
+    <color name="blue_alpha">#1A00AFFF</color>
+    <color name="strong_dark_gray">#212121</color>
+    <color name="green_alpha">#1A00BC96</color>
+    <color name="yellow_alpha">#1AFFC833</color>
+    <color name="answer_color_unselect">#FFFFFF</color>
+    <color name="white_questions">#FFFFFF</color>
+    <color name="blue_alpha_25">#FFFFFF</color>
+    <color name="gray_item">#E0E0E0</color>
+    <color name="opacity">#80FFFFFF</color>
+    <color name="orange">#FF7A00</color>
+    <color name="indicator">#D6D6D6</color>
+    <color name="binafsha">#8D7DFA</color>
+    <color name="recycler_bg">#E5E5E5</color>
+    <color name="twomodecolor">#E5E5E5</color>
+    <color name="night_selected_interest_lan">#1A00AFFF</color>
+    <color name="night_unselected_interest_lan">#212121</color>
+    <color name="light_selected_interest_lan">#E6F7FF</color>
+    <color name="something">#1AFFFFFF</color>
+    <color name="contrast_back">#FFFFFF</color>
+    <color name="dialog_color">#B066FF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="green_pattern">#1A009678</color>
+    <color name="amount">#00BC96</color>
+    <color name="pay">#121212</color>
+    <color name="date">#8D8D8D</color>
+    <color name="option">#F6F6F6</color>
+    <color name="payment_option_stroke">#F2F2F7</color>
+    <color name="payment_option_bg">#F2F2F7</color>
+    <color name="arrow">#BDBDBD</color>
+    <color name="gray6">#1C1C1E</color>
+    <color name="podcast_seekbar">#3300AFFF</color>
+    <color name="section_color">#BDBDBD</color>
+    <color name="date_color">#828282</color>
+    <color name="play_btn">#333333</color>
+    <color name="simple_gray">#828282</color>
+    <color name="grey_stroke">#E0E0E0</color>
+    <color name="gray_1">#121212</color>
+    <color name="camera_color">#00BC96</color>
+    <color name="line">#E0E0E0</color>
+
+
+
+    //////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+    // farrux
+
+    <color name="xabarnoma_line_backround">#F2F2F2</color>
+    <color name="xabarnoma_card_back">#FFFFFF</color>
+    <color name="xabarnoma_savol">#121212</color>
+    <color name="xabarnoma_javob">#121212</color>
+    <color name="xabarnoma_crad_bag_small">#FFF1F2</color>
+    <color name="x_data_2">#ACB1B6</color>
+
+
+    <color name="d_v_back_main">#FFFFFF</color>
+    <color name="black_white">#121212</color>
+
+    <color name="main_back_all">#E0E0E0</color>
+    <color name="yashil_yashilroq">#E5F8F4</color>
+    <color name="qizil_qizilroq">#FFF1F2</color>
+
+    <color name="x_text">#4F4F4F</color>
+    <color name="black_white_little">#4F4F4F</color>
+
+    <color name="speaking_back_card_color">#F2F2F2</color>
+    <color name="kok_oq">#00AFFF</color>
+    <color name="color_comments">#BDBDBD</color>
+
+    <color name="color_profil">#121212</color>
+    <color name="color_chiqish_btn">#FDEEEE</color>
+    <color name="color_profil_back">#FFFFFF</color>
+    <color name="color_profil_red">#FB7181</color>
+    <color name="qizilroq">#FFF1F2</color>
+    <color name="white_qizilroq">#FFFFFF</color>
+    <color name="color_profil_green">#E5F8F4</color>
+    <color name="white_black">#FFFFFF</color>
+    <color name="news_text">#A7A7A7</color>
+
+    <color name="color_pink">#B066FF</color>
+    <color name="color_green">#00BC96</color>
+
+
+    <color name="test_back">#FCFCFC</color>
+
+    <color name="white_green">#FFFFFF</color>
+
+    <color name="yellow_more">#FFAC32</color>
+
+    <color name="pink_more">#9B51E0</color>
+    <color name="morered">#EB5757</color>
+
+    //
+
+
+    //---------------------------------------------------
+    //adkhamjon
+    <color name="bottom_unselected">#BDBDBD</color>
+    <color name="login_loader">#B2FFFFFF</color>
+
+    <color name="ballon_info_line">#F2F2F2</color>
+
+    //------------------------------------
+</resources>
